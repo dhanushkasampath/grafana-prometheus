@@ -1,0 +1,9 @@
+server:
+  port: 2020
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - prometheus
